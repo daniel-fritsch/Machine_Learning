@@ -37,4 +37,4 @@ model.compile(optimizer='adam', loss='sparse_categorical_crossentropy', metrics=
 
 model.fit(x_train, y_train, epochs=5)
 
-model.save('handwrittenone.model')
+model.save('handwrittentwo.model')
